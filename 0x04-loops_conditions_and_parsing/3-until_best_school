@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This function prints Best school 10 times using until loop.
+b="10"
+until ((b < 1))
+do
+        echo "Best School"
+        ((b--))
+done   

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+#this bash script prints 10 = best school and 1 hi
+c=0
+while ((c < 11))
+do
+	if ((c == 9));
+	then
+		echo "Hi"
+	elif ((c != 9));
+	then
+		echo "Best School"
+	fi
+	((c++))
+done
