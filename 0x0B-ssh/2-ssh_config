@@ -1,0 +1,6 @@
+Host *
+
+PubkeyAuthentication yes
+PasswordAuthentication no
+privatekey ~/.ssh/school
+port 22
